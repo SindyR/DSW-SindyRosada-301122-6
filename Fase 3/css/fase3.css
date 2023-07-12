@@ -1,0 +1,64 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "A A A A"
+    "B B B B"
+    "D C C C"
+    "E E E E";
+}
+.centrado{
+    text-align: center;
+}
+header{
+    grid-area:A;
+    background-color:#A7727D;
+}
+nav{
+    grid-area:B;
+    background-color:#EDDBC7;
+    color: black;
+}
+main{
+    grid-area:C;
+    background-color:#F8EAD8;
+    color: black;
+}
+aside{
+    grid-area:D;
+    background-color:#FAEDCD;
+    color: black;
+}
+footer {
+    grid-area:E;
+    background-color:#F5FFC9;
+}
+.centrado{
+    text-align: center;
+}
+img{
+    border: 3px dashed rgb(255, 255, 255);
+    width: 200px;
+    height: 10em;
+}
+.menu-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style:none;
+}
+.menu-horizontal a{
+    background-color:#000;
+    color:white;
+    text-decoration: none;
+    padding:10px 40px;
+    margin: 4px;
+}
+.menu-aside{
+    list-style:none;
+}
+.menu-aside a{
+    background-color:burlywood;
+    color:black;
+    text-decoration: none;
+    display: block;
+}
